@@ -127,15 +127,16 @@ input#input-descricao, input#input-detalhamento {
 }
 
 .img {
-    animation: pular 3s cubic-bezier(.53, -0.03, .67, 1.06) infinite; 
+    animation: voar 2s cubic-bezier(.53, -0.03, .67, 1.06) infinite; 
     animation-direction: alternate;
   }
   
 
-  @keyframes pular {
+  @keyframes voar {
     0% {
         transform:translateY(0%);
     }
+
     100%{
         transform:translateY(10%);
     }
